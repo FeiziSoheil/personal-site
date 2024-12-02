@@ -1,0 +1,52 @@
+.skill-card:hover .skill-icon {
+    color: rgba(255, 255, 255, 0.655);
+    transition: color 0.6s;
+  }
+  .skill-card:hover .skill-icon-react {
+    color: #61DBFB; /* رنگ React */
+  }
+  
+  .skill-card:hover .skill-icon-node {
+    color: #68A063; /* رنگ Node.js */
+  }
+  
+  .skill-card:hover .skill-icon-html {
+    color: #E34F26; /* رنگ HTML */
+  }
+  
+  .skill-card:hover .skill-icon-css {
+    color: #1572B6; /* رنگ CSS */
+  }
+  
+  .skill-card:hover .skill-icon-js {
+    color: #F7DF1E; /* رنگ JS */
+  }
+  
+  .skill-card:hover .skill-icon-python {
+    color: #3776AB; /* رنگ Python */
+  }
+  
+  .skill-card:hover .skill-icon-mongodb {
+    color: #47A248; /* رنگ MongoDB */
+  }
+  
+  .skill-card:hover .skill-icon-mysql {
+    color: #4479A1; /* رنگ MySQL */
+  }
+  
+.skill-card{
+  border: 1px solid rgba(61, 61, 61, 0.356);
+}
+
+.skill-icon-react{
+  animation: ltr 0.6s  ease-in-out;
+}
+
+@keyframes ltr {
+  from{
+    transform: translateX(-10);
+  }
+  to{
+    transform: translateX(0);
+  }
+}

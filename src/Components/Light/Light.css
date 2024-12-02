@@ -1,0 +1,12 @@
+.ligth-wrapper{
+    background-color: #1a3153;
+    border-radius: 50%;
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    filter: blur(80px);
+    right: 250px;
+    top: -200px;
+    transform: rotate(-25deg);
+    z-index: 0;
+}
